@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+#parte1 {
+    background-image: url('images/bg-hero-desktop.svg');
+}
+
+#parte1 > div {
+    font-weight: 700;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+}
+
+h1, h2 {
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+#cards {
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border: none;
+}
+
+footer {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.botaorosa {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+button:hover {
+    opacity: 0.6;
+}
